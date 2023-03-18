@@ -59,14 +59,22 @@ In conclusion, AJAX is a technique used in web development to create interactive
 
 <h2> Ajax using JQUERY </h2>
 AJAX can be implemented in JQuery using the $.ajax() function, which allows you to make asynchronous requests to the server and handle the response using JavaScript. Here is an example of how to use the $.ajax() function in JQuery:
+<p>
 $.ajax({
+    <br/>
     url: 'example.php',
+     <br/>
     type: 'POST',
+     <br/>
     data: { name: 'John', age: 30 },
+     <br/>
     success: function(response) {
         console.log(response);
     },
+     <br/>
     error: function(xhr, status, error) {
         console.log(xhr.responseText);
     }
+     <br/>
 });
+</p>
